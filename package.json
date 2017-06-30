@@ -1,0 +1,22 @@
+{
+  "name": "lesson8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "./node_modules/mocha/bin/mocha test/app.test.js"
+  },
+  "keywords": [],
+  "author": "redx <redx123@126.com> (https://github.com/redgang)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "nodemon": "^1.11.0",
+    "should": "^4.0.4",
+    "supertest": "^0.14.0"
+  },
+  "dependencies": {
+    "express": "^4.9.6"
+  }
+}
